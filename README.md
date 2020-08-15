@@ -27,6 +27,6 @@
 2. 上部のシステムバーの"File"をクリック
 3. "Swift Packages"をクリック、次いで"Add package dependency…"をクリック
 4. 以下のURLをペースト：`https://github.com/mszmagic/SwiftUICompatible.git`
-5. Version: Up to Next Major `1.0.2 <`
+5. Version: Up to Next Major `1.0.0 <`
 6. "Next"をクリック
 7. "Done"をクリック。
