@@ -1,5 +1,7 @@
 # SwiftUICompatible
 
+<img width="500" alt="image" src="https://github.com/mszmagic/SwiftUICompatible/blob/master/social-image.png?raw=true">
+
 `SwiftUI` は新しいフレームワークであるので、フィーチャー `UIKit` の幾らかを欠いています。そららフィーチャー `UIKit` を活用する為には、`UIViewControllerRepresentable` を使用しなければなりません。
 
 頻出する `UIViewControllerRepresentable` のコードを蓄積するレポジトリを作成したので、`SwiftUI` プロジェクトに活用してください。
