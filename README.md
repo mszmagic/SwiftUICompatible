@@ -1,6 +1,6 @@
 # SwiftUICompatible
 
-<img width="500" alt="image" src="https://github.com/mszmagic/SwiftUICompatible/blob/master/social-image.png?raw=true">
+<img width="500" alt="image" src="https://github.com/mszmagic/SwiftUICompatible/blob/master/social_image.png?raw=true">
 
 `SwiftUI` は新しいフレームワークであるので、フィーチャー `UIKit` の幾らかを欠いています。そららフィーチャー `UIKit` を活用する為には、`UIViewControllerRepresentable` を使用しなければなりません。
 
@@ -20,10 +20,11 @@
 
 ## 使用方法
 
-- コードをブラウズし、自身のプロジェクトにコピーアンドペーストすることができます。
-- または、`Swift Package Manager` を使用して自身のプロジェクトにコードを挿入することができます。iOS 14のみに対応しているため、`Swift Package Manager` には `PhotoPicker` が含まれないことにご注意ください。
+### - コードをブラウズし、自身のプロジェクトにコピーアンドペーストすることができます。
 
-### Swift Package Manager
+### - Swift Package Manager
+
+または、`Swift Package Manager` を使用して自身のプロジェクトにコードを挿入することができます。iOS 14のみに対応しているため、`Swift Package Manager` には `PhotoPicker` が含まれないことにご注意ください。
 
 1. Xcode内からプロジェクトを開く
 2. 上部のシステムバーの"File"をクリック
