@@ -32,3 +32,24 @@
 5. Version: Up to Next Major `1.0.0 <`
 6. "Next"をクリック
 7. "Done"をクリック。
+
+```swift
+import SwiftUICompatible
+
+struct ContentView: View {
+    
+    @State private var showPreview = false
+    
+    var body: some View {
+        Button(action: {
+            self.showPreview = true
+        }){
+            Text("表示")
+        }
+        .sheet(isPresented: $showPreview, content: {
+             SafariView(url: URL(string: "https://github.com/mszmagic/SwiftUICompatible")!)
+        })
+    }
+    
+}
+```
