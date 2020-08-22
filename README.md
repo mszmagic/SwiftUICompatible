@@ -11,7 +11,8 @@
 ## 含まれているクラス `UIViewControllerRepresentable`
 
 - [ファイル内容をプレビュー](/Sources/SwiftUICompatible/QuickLook.swift) (`QLPreviewController`)
-- [iOS 14 フォトピッカー](/iOS14/PhotoPicker.swift) (`PhotoPickerView`)
+- [iOS 14 フォトピッカー](/iOS14/PhotoPicker.swift) (`PHPickerViewController`)
+- [フォトピッカー](/Sources/SwiftUICompatible/ImagePicker.swift) (`UIImagePickerController`)
 - [メールコンポーザー](/Sources/SwiftUICompatible/mailComposer.swift) (`MFMailComposeViewController`)
 - [テキストメッセージコンポーザー](/Sources/SwiftUICompatible/textMessageComposer.swift) (`MFMessageComposeViewController`)
 - [ウェブ表示](/Sources/SwiftUICompatible/safariViewController.swift) (`SFSafariViewController`)
