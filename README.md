@@ -18,6 +18,7 @@
 - [ウェブ表示](/Sources/SwiftUICompatible/safariViewController.swift) (`SFSafariViewController`)
 - [ドキュメントピッカー](/Sources/SwiftUICompatible/documentPicker.swift) (`UIDocumentPickerViewController`)
 - [ビデオプレイヤー](/Sources/SwiftUICompatible/videoPlayer.swift) (`AVPlayerViewController`)
+-[UICloudSharingController](/Sources/SwiftUICompatible/UICloudSharingView.swift)
 
 ## 使用方法
 
