@@ -10,7 +10,7 @@
  <string>写真ライブラリへのアクセスが必要です</string>
  */
 
-#if os(iOS)
+#if os(iOS) && !targetEnvironment(macCatalyst)
 
 import Foundation
 import UIKit

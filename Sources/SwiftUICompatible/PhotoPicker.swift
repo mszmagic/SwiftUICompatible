@@ -5,7 +5,7 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
-#if os(iOS)
+#if os(iOS) && !targetEnvironment(macCatalyst)
 
 import Foundation
 import SwiftUI
