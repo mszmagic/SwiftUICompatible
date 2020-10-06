@@ -5,9 +5,12 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
+#if os(iOS)
+
 import Foundation
 import SwiftUI
 import SafariServices
+import WebKit
 
 /**
  アプリケーション内でブラウザーウィンドウを表示するには。
@@ -35,3 +38,23 @@ public struct SafariView: UIViewControllerRepresentable {
     }
 
 }
+
+@available(iOS 13.0, *)
+public struct WebViewWithHTMLString: UIViewRepresentable {
+    
+    var htmlString: String
+    
+    public typealias UIViewType = WKWebView
+
+    public func makeUIView(context: UIViewRepresentableContext<WebViewWithHTMLString>) -> WKWebView {
+        let view = WKWebView()
+        view.loadHTMLString(htmlString, baseURL: nil)
+        return view
+    }
+
+    public func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<WebViewWithHTMLString>) {
+    }
+    
+}
+
+#endif

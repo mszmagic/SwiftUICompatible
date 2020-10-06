@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on R 2/10/02.
 //
 
+#if os(iOS)
+
 import Foundation
 import SwiftUI
 import CloudKit
@@ -41,3 +43,5 @@ public struct UICloudSharingView: UIViewControllerRepresentable {
     }
     
 }
+
+#endif

@@ -10,6 +10,8 @@
  <string>写真ライブラリへのアクセスが必要です</string>
  */
 
+#if os(iOS)
+
 import Foundation
 import UIKit
 import SwiftUI
@@ -62,3 +64,5 @@ public struct ImagePicker: UIViewControllerRepresentable {
 
     }
 }
+
+#endif
