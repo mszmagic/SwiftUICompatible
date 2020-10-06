@@ -5,8 +5,6 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
-#if os(iOS)
-
 import Foundation
 import UIKit
 import SwiftUI
@@ -60,5 +58,3 @@ public struct QuickLookView: UIViewControllerRepresentable {
 
     }
 }
-
-#endif

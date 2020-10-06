@@ -5,8 +5,6 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
-#if os(iOS)
-
 import Foundation
 import SwiftUI
 import SafariServices
@@ -56,5 +54,3 @@ public struct WebViewWithHTMLString: UIViewRepresentable {
     }
     
 }
-
-#endif
