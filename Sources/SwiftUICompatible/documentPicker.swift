@@ -24,14 +24,16 @@ import MobileCoreServices
 @available(iOS 13.0, *)
 public struct DocumentPicker: UIViewControllerRepresentable {
     
+    private var allowMultipleSelections = false
     var documentTypes: [String]
     var onPicked: ([URL]) -> Void
     var onCancel: () -> Void
     
-    public init(documentTypes: [String], onPicked: @escaping ([URL]) -> Void, onCancel: @escaping () -> Void) {
+    public init(allowMultipleSelections: Bool = false, documentTypes: [String], onPicked: @escaping ([URL]) -> Void, onCancel: @escaping () -> Void) {
         self.documentTypes = documentTypes
         self.onPicked = onPicked
         self.onCancel = onCancel
+        self.allowMultipleSelections = allowMultipleSelections
     }
 
     public func makeCoordinator() -> Coordinator {
@@ -45,6 +47,7 @@ public struct DocumentPicker: UIViewControllerRepresentable {
     public func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
         let picker = UIDocumentPickerViewController(documentTypes: documentTypes, in: .import)
         picker.delegate = context.coordinator
+        picker.allowsMultipleSelection = self.allowMultipleSelections
         return picker
     }
 
