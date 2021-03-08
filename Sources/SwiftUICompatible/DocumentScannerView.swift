@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on R 2/10/18.
 //
 
+#if os(iOS)
+
 import SwiftUI
 import VisionKit
 
@@ -47,3 +49,5 @@ public struct DocumentScannerView: UIViewControllerRepresentable {
     }
 
 }
+
+#endif
