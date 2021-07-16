@@ -18,7 +18,7 @@
 - [ウェブ表示](/Sources/SwiftUICompatible/safariViewController.swift) (`SFSafariViewController`)
 - [ドキュメントピッカー](/Sources/SwiftUICompatible/documentPicker.swift) (`UIDocumentPickerViewController`)
 - [ビデオプレイヤー](/Sources/SwiftUICompatible/videoPlayer.swift) (`AVPlayerViewController`)
-- [UICloudSharingController](/Sources/SwiftUICompatible/UICloudSharingView.swift)
+- [UICloudSharingController](/Sources/SwiftUICompatible/UICloudSharingView.swift) (This only works on iPhone; As you need to set a  `popoverController.sourceView` for the `UICloudSharingController`. Consider creating a storyboard with a single button (that shows the `UICloudSharingController`) and present the storyboard view from SwiftUI).
 
 ## 使用方法
 
