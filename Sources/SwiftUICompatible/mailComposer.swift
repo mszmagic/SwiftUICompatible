@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
+#if canImport(MessageUI)
+
 import Foundation
 import SwiftUI
 import MessageUI
@@ -77,3 +79,5 @@ public struct MailComposeView: UIViewControllerRepresentable {
 
     }
 }
+
+#endif
