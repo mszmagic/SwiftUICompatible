@@ -5,7 +5,7 @@
 //  Created by Shunzhe Ma on 8/15/20.
 //
 
-#if canImport(MobileCoreService)
+#if os(iOS)
 
 import Foundation
 import SwiftUI
